@@ -12,7 +12,7 @@ let dog_names = ["Max","HAS","PuRple","dog"]
 function findWords(){
     for (let i = 0; i < dog_names.length; i++){
         if(dog_string.includes(dog_names[i])){
-            console.log(`matched ${dog_names[0]}`) 
+            console.log(`matched ${dog_names[i]}`) 
         } else {
         console.log('No matches')}
     }
